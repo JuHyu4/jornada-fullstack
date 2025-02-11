@@ -1,0 +1,21 @@
+
+.texto{
+    margin: 40px;
+    padding: 20px;
+    color: black;
+}
+
+.titulo{
+text-align: center;
+border-bottom:solid #F0CCE2;
+
+}
+
+.paragrafo-normal{
+    background-color: #F5F5F5;
+}
+
+.paragrafo-rosa{
+    background-color: #F0CCE2;
+    
+}

@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(238, 227, 213);
+    padding: 100px;
+}
+
+
+
+.titulo{
+    background-color: burlywood;
+    margin: 50px 100px  20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:5px solid black;
+    text-align: center;
+    
+}
+
+
+.produtos{
+    background-color: pink;
+    margin:20px 100px;
+    padding: 10px;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.fatura{
+    background-color: rgb(94, 224, 68);
+    text-align: center;
+    margin:20px 100px;
+    padding: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-size: 30px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style serve para customizar e dar intruções ao codigo -->
+    <style>
+        th, td {
+border: 1px solid black;
+}
+        tfoot{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+
+<table>
+
+<thead>
+
+<!-- </thead é o titulo do cabeçalho da tabela>  -->
+ <!-- tr  unica linha -->
+  <!-- th cada coluna-->
+
+     <tr>
+
+<th> Produtos</th>
+<th>Quantidade</th>
+<th> Preço</th>
+<th>Back friday</th>
+
+
+<tbody>
+ 
+    <tr>
+        <!-- adicionar coolspan aumenta a ocupação do quadrado da tabela ou seja - colspan= "2" do lado do td -->
+
+        <!-- rowspan="2" ocupa mais uma linha da coluna -->
+        <td> Produto 1</td>
+        <td>2</td>
+        <td>5$</td>
+        <td rowspan="2">Sim</td>
+    </tr>
+    <tr>
+        <td>Produto 2</td>
+        <td>5</td>
+        <td>10$</td>
+      
+    </tr>
+    <tr>
+        <td>Produto 3</td>
+        <td>3</td>
+        <td>15$</td>
+        <td>não</td>
+    </tr>
+</tbody>
+
+<tfoot>
+    
+    <tr>
+        <td colspan="3">  Total</td>
+        <td>30$</td>
+    </tr>
+
+
+</tfoot>
+
+</table>
+
+
+</body>
+</html> 
